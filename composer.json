@@ -1,0 +1,26 @@
+{
+    "name": "polynds/php-console-style",
+    "license": "MIT",
+    "keywords": [
+        "php"
+    ],
+    "description": "简单易用的PHP控制台样式控制。",
+    "autoload": {
+        "psr-4": {
+            "PhpConsoleStyle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kuangjian",
+            "email": "2910508410@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^1.0"
+    }
+}
